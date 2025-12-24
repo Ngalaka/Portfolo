@@ -414,6 +414,7 @@ color: #ffffff;
 }
 
 .command{
+  width: 100%;
   margin: auto;
 }
 .command button{

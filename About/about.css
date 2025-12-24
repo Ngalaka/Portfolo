@@ -127,6 +127,7 @@
 }
 .aboutMe{
   width: 50%;
+  padding: 30px 20px;
 }
 
 .about h3{
@@ -144,7 +145,7 @@
   font-family: sans-serif;
   color: #ffffff;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 30px 20px;
 }
 
 .aboutMe h1 span{
@@ -152,14 +153,14 @@
   font-family: sans-serif;
   color: #12DBF6;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 30px 20px;
 }
 .aboutMe p{
   font-size:1.25rem;
   font-family: sans-serif;
   color:lightgray;
   font-weight: 400;
-  padding: 10px 20px;
+  padding: 30px 20px;
 }
 
 .exprience{
@@ -226,6 +227,14 @@
     width: 100%;
     overflow-x: hidden;
   }
+
+  .navbar{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+ 
   .navbar{
     width: 100%;
     height: 70px;
@@ -235,7 +244,7 @@
     align-items: center;
     background-color: #28282a;
     padding: 10px 20px;
-        }
+   }
 
   .links{
     width: 100%;
@@ -291,6 +300,7 @@
 /* about css */
 .about{
   width: 100%;
+  max-width: 100%;
   background-color: #161618;
 }
 .aboutContainer{
@@ -308,6 +318,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  padding: 20px 20px;
 }
 
 .pic img{
@@ -323,6 +334,7 @@
   font-family: sans-serif;
   font-weight: 700;
   color: #ffffff;
+  padding: 20px 20px;
 }
 .profile h1{
   text-align: center;
@@ -359,7 +371,7 @@
   font-family: sans-serif;
   color: #ffffff;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 30px 20px;
 }
 
 .aboutMe h1 span{
@@ -367,14 +379,14 @@
   font-family: sans-serif;
   color: #12DBF6;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 30px 20px;
 }
 .aboutMe p{
   font-size:1rem;
   font-family: sans-serif;
   color:lightgray;
   font-weight: 400;
-  padding: 10px 20px;
+  padding: 30px 20px;
 }
 
 .exprience{
