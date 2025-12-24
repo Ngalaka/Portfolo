@@ -415,10 +415,10 @@ color: #ffffff;
 
 .command{
   width: 100%;
-  margin: auto;
+  /* margin: auto; */
 }
 .command button{
-  width: 150px;
+  width: 120px;
   padding: 10px 20px;
   font-size: 1rem;
   font-family: sans-serif;
