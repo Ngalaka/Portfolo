@@ -384,6 +384,7 @@
         /* contact */
          .contact{
           width: 100%;
+          max-width: 100%;
           background-color:#3f3f41;
         }
           .contactFlex{
