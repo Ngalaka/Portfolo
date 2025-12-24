@@ -61,7 +61,7 @@
 .menu{
   width: 40px;
   height: 40px;
-  display: none;
+  display: block;
 }
 
 .menu .fa-bars{
@@ -84,16 +84,59 @@
   align-items: center;
 }
 
+.profile{
+  width: 50%;
+  margin: auto;
+  padding: 30px 20px;
+}
+.pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile p{
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 20px 30px;
+  color: #ffffff;
+}
+.profile h1{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+.profile h1 span{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #12DBF6;
+}
 .aboutMe{
   width: 50%;
 }
 
-.aboutMe h3{
+.about h3{
   font-size: 1.25rem;
   font-family: sans-serif;
   color: #12DBF6;
   font-weight: 600;
-  padding: 10px 20px;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: underline;
 }
 
 .aboutMe h1{
@@ -130,6 +173,7 @@
 .child{
   width: 100%;
   background-color:#28282a;
+  padding: 20px;
 }
 
 .child:hover{
@@ -137,8 +181,8 @@
 }
 
 .icon{
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   margin-left: 20px;
   /* background-color: #12dbf6; */
 }
@@ -191,7 +235,7 @@
   }
 
   .links li a{
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: sans-serif;
   cursor: pointer;
   font-weight: 600;
@@ -213,7 +257,6 @@
   width: 40px;
   height: 40px;
   display:block;
-  /* padding-left: 120px; */
 }
 
 .menu i{
@@ -237,16 +280,57 @@
   align-items: center;
 }
 
-.aboutMe{
+.profile{
   width: 100%;
 }
+.pic{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 
-.aboutMe h3{
+.pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile p{
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+.profile h1{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+.profile h1 span{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #12DBF6;
+}
+.profile{
+  width: 400px;
+  height: 400px;
+}
+
+.about h3{
   font-size: 1.25rem;
   font-family: sans-serif;
   color: #12DBF6;
   font-weight: 600;
-  padding: 10px 20px;
+}
+.aboutMe{
+  width: 100%;
+  
 }
 
 .aboutMe h1{
@@ -265,7 +349,7 @@
   padding: 10px 20px;
 }
 .aboutMe p{
-  font-size:1.25rem;
+  font-size:1rem;
   font-family: sans-serif;
   color:lightgray;
   font-weight: 400;
@@ -276,7 +360,7 @@
   width: 100%;
   display: grid;
   grid-template-columns:1fr;
-   padding: 10px;
+  padding: 10px;
 }
 .child{
   width: 100%;
@@ -284,8 +368,8 @@
 }
 
 .icon{
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   margin: auto;
   text-align: center;
 }
@@ -305,7 +389,7 @@
   font-weight: bold;
   margin: 20px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .child:hover{
@@ -314,7 +398,7 @@
 
 
 .child p{
-  font-size: 1.24rem;
+  font-size: 1rem;
   font-family: sans-serif;
   color: lightgray;
   font-weight: 400;

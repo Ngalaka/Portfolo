@@ -1,5 +1,5 @@
 const menuList = document.querySelector('#nav-links')
-const contact = document.querySelector('#contact');
+const hire = document.querySelector('#hire');
 menuList.style.maxHeight ="0px";
 
 function toggle(){
@@ -12,6 +12,6 @@ function toggle(){
 }
 
 
-contact.addEventListener('click', function(){
+hire.addEventListener('click', function(){
 window.location.href ="./Contact/contact.html";
 });

@@ -61,7 +61,7 @@
         .menu{
           width: 40px;
           height: 40px;
-          display: none;
+          display:none;
         }
 
         .menu .fa-bars{
@@ -113,6 +113,7 @@
               width: 40px;
               height: 40px;
               border-radius: 50%;
+              cursor: pointer;
             }
 
             .media .social img{
@@ -204,7 +205,7 @@
               height: 40px;
               color: #12DBF6;
               margin-left: 20px;
-              padding: 20px;
+              padding:20px 20px;
             }
             .box{
               width: 100%;
@@ -240,6 +241,7 @@
         
             .send{
               margin-left: 40px;
+              padding: 20px 30px;
             }
             .send button{
               width: 300px;
@@ -247,13 +249,57 @@
               font-family: sans-serif;
               font-weight: bold;
               color:#000000;
-              padding: 10px 20px;
+              padding: 20px 30px;
               background-color: #12dbf6;
               border: none;
               cursor: pointer;
               border-radius: 10px;
-
+             
             }
+
+            .footer{
+              width: 100%;
+              background-color: #28282a;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              gap: 20px;
+            }
+
+            .copyrigh{
+              width: 40%;
+            }
+
+           .copyright p{
+            font-size: 1rem;
+            font-family: sans-serif;
+            color: lightgray;
+            padding: 20px 30px;
+           }
+            
+            .media1{
+              width: 40%;
+              display: flex;
+              flex-direction: row;
+              justify-content:center;
+              align-items: center;
+              gap: 20px;
+              padding: 20px 30px;
+            }
+
+            .icon{
+              width: 40px;
+              height: 40px;
+            }
+            .icon img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 50%;
+              cursor: pointer;
+            }
+
         /* @media */
 
         @media screen and (max-width:640px) {
@@ -276,7 +322,7 @@
           }
 
           .links li a{
-          font-size: 1.25rem;
+          font-size: 1rem;
           font-family: sans-serif;
           cursor: pointer;
           font-weight: 600;
@@ -373,7 +419,7 @@
               
             }
             .contactinfor h3{
-              font-size: 1rem;
+              font-size: 1.25rem;
               font-family: sans-serif;
               font-weight: bold;
               color: #12dbf6;
@@ -448,7 +494,7 @@
             }
             input{
                width: 100%;
-              font-size: 1.25rem;
+              font-size: 1rem;
               font-family: sans-serif;
               font-weight: 400;
               border: none;
@@ -459,17 +505,17 @@
               padding: 20px 30px;
             }
             .follow h2{
-              font-size: 1.5rem;
+              font-size: 1.25rem;
               font-family: sans-serif;
               font-weight: bold;
               color: #ffffff;
               padding: 10px 20px;
             }
             textarea{
-              font-size: 1.25rem;
+              font-size: 1rem;
               font-family: sans-serif;
               font-weight: 400;
-              width: 100%;
+              width: 90%;
               border: none;
               outline: none;
               padding: 20px 30px;
@@ -479,7 +525,7 @@
         
             .send{
               width: 90%;
-              /* margin-left: 20px; */
+               padding: 20px 30px;
             }
             .send button{
               width: 90%;
@@ -493,5 +539,47 @@
               cursor: pointer;
               border-radius: 10px;
 
+            }
+          .footer{
+              width: 100%;
+              background-color: #28282a;
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+              align-items: center;
+              gap: 20px;
+            }
+
+            .copyrigh{
+              width: 100%;
+            }
+
+           .copyright p{
+            font-size: 1rem;
+            font-family: sans-serif;
+            color: lightgray;
+            padding: 20px 30px;
+           }
+            
+            .media1{
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              justify-content:center;
+              align-items: center;
+              gap: 20px;
+              padding: 20px 30px;
+            }
+
+            .icon{
+              width: 40px;
+              height: 40px;
+            }
+            .icon img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 50%;
+              cursor: pointer;
             }
         }

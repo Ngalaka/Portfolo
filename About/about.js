@@ -1,6 +1,6 @@
 const menuList = document.querySelector('#nav-links')
 menuList.style.maxHeight ="0px";
-const conta = document.querySelector('#contact');
+const conta = document.querySelector('#hire');
 
 
 function toggle(){

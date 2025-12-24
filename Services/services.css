@@ -1,0 +1,341 @@
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        .navbar{
+          width: 100%;
+          height: 70px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          background-color: #28282a;
+          padding: 10px 20px;
+          position:relative;
+        }
+
+        .links{
+          display: flex;
+        }
+        .links li{
+          list-style-type: none;
+        }
+        .links li a{
+          padding: 20px;
+          font-size: 1.25rem;
+          font-family: sans-serif;
+          cursor: pointer;
+          font-weight: 600;
+          text-decoration: none;
+          color: #ffffff;
+          transition: all 3s ease-in;
+          text-align: center;
+        }
+
+        .links li a:hover{
+          color: #12DBF6;
+          text-decoration: un;
+        }
+
+        .logo{
+          width: 40px;
+          height: 40px;
+        }
+
+        .logo img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .hireMe{
+          padding: 10px 10px;
+          background-color:#12dbf6;
+          color: #000000;
+          font-size: 1rem;
+          font-family: sans-serif;
+          cursor: pointer;
+        }
+
+        .menu{
+          width: 40px;
+          height: 40px;
+          display: none;
+        }
+
+        .menu .fa-bars{
+          width: 100%;
+          height: 100%;
+          color: #ffffff;
+          padding: 10px 20px;
+        }
+
+        /* Services */
+        .services{
+          width: 100%;
+          background-color: #3f3f41;
+        }
+        .serdetails{
+         width: 100%; 
+        }
+        .serdetails h3{
+          font-size: 1.5rem;
+          font-family: sans-serif;
+          font-weight: 700;
+          text-align: center;
+          padding: 30px 30px;
+          color: #12dbf6;
+          text-decoration: underline;
+        }
+
+         .serdetails h1{
+          font-size: 3rem;
+          font-family: sans-serif;
+          font-weight: 700;
+          text-align: center;
+          color: #ffffff;
+        }
+
+         .serdetails h1 span{
+          font-size: 3rem;
+          font-family: sans-serif;
+          font-weight: 700;
+          text-align: center;
+          color: #12dbf6;
+        }
+
+        .serdetails p{
+          font-size: 1.25rem;
+          font-family: sans-serif;
+          font-weight: 400;
+          text-align: center;
+          color:lightgray;
+        }
+
+        .serviceGride{
+          width:90%;
+          display:grid;
+          grid-template-columns: repeat(3,1fr);
+          gap: 20px;
+          margin: auto;
+          padding: 20px 30px;
+        }
+
+        .serChild{
+          width: 100%;
+          background-color:#28282a;
+          padding: 20px 30px;
+          transition:transform 2s ease 1s;
+        }
+
+        .serChild:hover{
+         transform: scale(0.9); 
+         border: 2px solid #12DBF6;
+        }
+
+         .serChild h2{
+           font-size: 1.5rem;
+          font-family: sans-serif;
+          font-weight: bold;
+          text-align: center;
+          color:#ffffff;
+        }
+
+         .serChild p{
+           font-size: 1rem;
+          font-family: sans-serif;
+          font-weight: 400;
+          text-align: center;
+          color:lightgray;
+          padding: 10px 0;
+         }
+      .icon{
+        width: 40px;
+        height: 40px;
+        margin: auto;
+      }
+
+      .icon i{
+        width: 100%;
+        height: 100%;
+        color: #12DBF6;
+      }
+
+        /* @Media Query */
+
+  @media screen and (max-width:640px) {
+          
+           .links{
+            width: 100%;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            right: 0;
+            background-color: #28282a;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            overflow: hidden;
+            text-align: center;
+          }
+
+         .links{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .links li{
+          list-style-type: none;
+          padding: 30px 20px;
+        }
+
+        .logo{
+          width: 40px;
+          height: 40px;
+        }
+
+        .logo img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .hireMe{
+          padding: 10px 10px;
+          background-color:#12dbf6;
+          color: #000000;
+          font-size: 1rem;
+          font-family: sans-serif;
+          cursor: pointer;
+        }
+          .links li a{
+          font-size: 1rem;
+          font-family: sans-serif;
+          cursor: pointer;
+          font-weight: 600;
+          text-decoration: none;
+          color: #ffffff;
+          transition: all 3s ease-in;
+          text-align: center;
+        }
+
+        .links li a:hover{
+          color: #12DBF6;
+          text-decoration: underline;
+        }
+        .hire{
+          display: none;
+        }
+
+        .menu{
+          width: 40px;
+          height: 40px;
+          display:block;
+          padding-left:120px;
+        }
+
+        .menu i{
+          width: 100%;
+          height: 100%;
+          color: #ffffff;
+        }
+        .links{
+          transition: all 3s ease-in;
+        }
+
+        /* Services */
+        .services{
+          width: 100%;
+          background-color: #3f3f41;
+        }
+        .serdetails{
+         width: 100%; 
+        }
+        .serdetails h3{
+          font-size: 1.5rem;
+          font-family: sans-serif;
+          font-weight: 700;
+          text-align: center;
+          padding: 30px 30px;
+          color: #12dbf6;
+          text-decoration: underline;
+        }
+
+         .serdetails h1{
+          font-size: 2.5rem;
+          font-family: sans-serif;
+          font-weight: 700;
+          text-align: center;
+          color: #ffffff;
+        }
+
+         .serdetails h1 span{
+          font-size: 2.5rem;
+          font-family: sans-serif;
+          font-weight: 700;
+          text-align: center;
+          color: #12dbf6;
+        }
+
+        .serdetails p{
+          font-size: 1rem;
+          font-family: sans-serif;
+          font-weight: 400;
+          text-align: center;
+          color:lightgray;
+        }
+
+        .serviceGride{
+          width:100%;
+          display:grid;
+          grid-template-columns:1fr;
+          gap: 20px;
+          margin: auto;
+          padding: 20px 30px;
+        }
+
+        .serChild{
+          width: 100%;
+          background-color:#28282a;
+          padding: 20px 30px;
+          transition:transform 2s ease 1s;
+        }
+
+        .serChild:hover{
+         transform: scale(0.9); 
+         border: 2px solid #12DBF6;
+        }
+
+         .serChild h2{
+           font-size: 1.5rem;
+          font-family: sans-serif;
+          font-weight: bold;
+          text-align: center;
+          color:#ffffff;
+        }
+
+         .serChild p{
+           font-size: 1rem;
+          font-family: sans-serif;
+          font-weight: 400;
+          text-align: center;
+          color:lightgray;
+          padding: 10px 0;
+         }
+        .icon{
+          width: 40px;
+          height: 40px;
+          margin: auto;
+        }
+
+        .icon i{
+          width: 100%;
+          height: 100%;
+          color: #12DBF6;
+        }
+
+
+      }
