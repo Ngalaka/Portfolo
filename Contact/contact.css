@@ -50,13 +50,15 @@
         }
 
         .hireMe{
-          padding: 10px 10px;
-          background-color:#12dbf6;
-          color: #000000;
-          font-size: 1rem;
-          font-family: sans-serif;
-          cursor: pointer;
-        }
+      padding: 10px 10px;
+      background-color:#12dbf6;
+      color: #000000;
+      font-size: 1rem;
+      font-family: sans-serif;
+      cursor: pointer;
+      border: none;
+      width: max-content;
+    }
 
         .menu{
           width: 40px;
@@ -286,6 +288,7 @@
               align-items: center;
               gap: 20px;
               padding: 20px 30px;
+              display: none;
             }
 
             .icon{
@@ -301,36 +304,58 @@
             }
 
         /* @media */
+       
 
-        @media screen and (max-width:640px) {
-          .links{
-            width: 100%;
-            position: absolute;
-            top: 60px;
-            left: 0;
-            right: 0;
-            background-color: #28282a;
-            display: flex;
-            flex-direction: column;
-            gap: 0;
-            overflow: hidden;
-            text-align: center;
-          }
+  @media screen and (max-width:640px) {
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-          .links li{
-            padding: 30px 20px;
-          }
-
-          .links li a{
-          font-size: 1rem;
-          font-family: sans-serif;
-          cursor: pointer;
-          font-weight: 600;
-          text-decoration: none;
-          color: #ffffff;
-          transition: all 3s ease-in;
-          text-align: center;
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #28282a;
+    padding: 10px 20px;
         }
+
+  .links{
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: #28282a;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow: hidden;
+  text-align: center;
+  }
+
+  .links li{
+    padding: 30px 20px;
+    }
+
+    .links li a{
+     font-size: 1rem;
+     font-family: sans-serif;
+     cursor: pointer;
+     font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 3s ease-in;
+    text-align: center;
+    }
 
         .links li a:hover{
           color: #12DBF6;
@@ -569,6 +594,7 @@
               align-items: center;
               gap: 20px;
               padding: 20px 30px;
+              display: none;
             }
 
             .icon{
