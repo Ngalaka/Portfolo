@@ -1,0 +1,749 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  .navbar{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #28282a;
+  padding: 10px 20px;
+  position:relative;
+  }
+
+  .links{
+   display: flex;
+  }
+  .links li{
+  list-style-type: none;
+  }
+  .links li a{
+   padding: 20px;
+   font-size: 1.25rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 3s ease-in;
+    text-align: center;
+    }
+
+  .links li a:hover{
+  color: #12DBF6;
+  text-decoration: un;
+   }
+
+  .logo{
+   width: 40px;
+  height: 40px;
+  }
+
+  .logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+  .hireMe{
+  padding: 10px 10px;
+  background-color:#12dbf6;
+  color: #000000;
+  font-size: 1rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  width: max-content;
+    }
+
+  .menu{
+  width: 40px;
+  height: 40px;
+  display:none;
+  }
+
+  .menu .fa-bars{
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  padding: 10px 20px;
+ }
+
+ /* css */
+ .container{
+    width: 100%;
+    max-width: 100%;
+    background-color: #070709;
+  }
+
+  .container h2{
+    color: #12dbf6;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    font-weight: 600;
+     padding: 30px 30px;
+  }
+
+  .container h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .container h1 span{
+    color: #12dbf6;
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .container h4{
+    color:lightgray;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight:400;
+    padding: 20px 20px;
+  }
+
+  .techGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px; 
+  }
+
+  .childgrid{
+    width: 90%;
+    background-color: #28282a;
+    padding: 30px 20px;
+  }
+
+  .pross-skill h3{
+    font-size: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #12dbf6 ;
+    padding: 10px 10px;
+
+  }
+
+  .pross-skill p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: lightgray;
+  }
+  .iconsgrid{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+  }
+
+  .iconsgrid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+  }
+
+  .progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color:#959595;
+    border-radius: 5px;
+
+  }
+
+  .progress-bar div{
+    width: 0px;
+    height: 10px;
+    /* background-color:red; */
+    border-radius: 5px;
+
+  }
+
+  .progress-bar div span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color:#fff;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .childgrid:hover{
+    box-shadow: 4px 4px 30px rgba(223, 200, 242, 0.7);
+    border: 2px solid #12dbf6;
+  }
+  .childgrid:hover .html{
+    animation: html 4s linear forwards;
+  }
+
+   .childgrid:hover .css{
+    animation: css 4s linear forwards;
+  }
+
+   .childgrid:hover .javascript{
+    animation: javascript 4s linear forwards;
+  }
+
+   .childgrid:hover .tailwind{
+    animation: tailwind 4s linear forwards;
+  }
+
+   .childgrid:hover .php{
+    animation: php 4s linear forwards;
+  }
+
+   .childgrid:hover .sql{
+    animation: sql 4s linear forwards;
+  }
+
+   .childgrid:hover .expressjs{
+    animation: expressjs 4s linear forwards;
+  }
+
+   .childgrid:hover .nodejs{
+    animation: nodejs 4s linear forwards;
+  }
+
+   .childgrid:hover .nextjs{
+    animation: nextjs 4s linear forwards;
+  }
+
+   .childgrid:hover .multimedia{
+    animation: multimedia 4s linear forwards;
+  }
+ .childgrid:hover .figma{
+    animation: figma 4s linear forwards;
+  }
+
+  .html{
+    background-color: #ab12bc;
+  }
+
+   .css{
+    background-color: #ab3401;
+  }
+
+   .javascript{
+    background-color: #1234de;
+  }
+
+  .tailwind{
+    background-color: #5df120;
+  }
+
+   .sql{
+    background-color: #906e;
+  }
+
+   .nextjs{
+    background-color: #ab45;
+  }
+
+  .php{
+    background-color: #ab3401;
+  }
+
+   .nodejs{
+    background-color: #12ecde;
+  }
+
+  .expressjs{
+    background-color: #94e75d;
+  }
+
+  .figma{
+    background-color: #03244e;
+  }
+
+  .multimedia{
+    background-color: #460505;
+  }
+
+
+
+  .html span{
+    border: 1px solid  #ab12bc;
+  }
+
+   .css span{
+     border: 1px solid #fdc513;
+  }
+
+   .javascript span{
+     border: 1px solid  #1234de;
+  }
+
+  .tailwind span{
+  border: 1px solid  #5df120;
+    
+  }
+
+   .sql span{
+     border: 1px solid   #906e;
+  }
+
+   .nextjs span{
+     border: 1px solid  #abbbed;
+  }
+
+  .php span{
+     border: 1px solid   #ab3401;
+  }
+
+   .nodejs{
+
+     border: 1px solid  #12ecde;
+  }
+
+  .expressjs span {
+     border: 1px solid  #5df120;
+  }
+
+  .figma span{
+     border: 1px solid #03244e;
+  }
+
+  .multimedia span{
+     border: 1px solid #460505;
+  }
+
+  
+  @keyframes html{
+    100%{width:90%;}
+  }
+
+   @keyframes css{
+    100%{width:90%;}
+  }
+
+   @keyframes javascript{
+    100%{width:80%;}
+  }
+
+   @keyframes tailwind{
+    100%{width:80%;}
+  }
+
+   @keyframes sql{
+    100%{width:75%;}
+  }
+
+   @keyframes nextjs{
+    100%{width:75%;}
+  }
+
+   @keyframes php{
+    100%{width:95%;}
+  }
+
+   @keyframes nodejs{
+    100%{width:80%;}
+  }
+
+    @keyframes expressjs{
+    100%{width:70%;}
+  }
+
+   @keyframes figma{
+    100%{width:90%;}
+  }
+
+   @keyframes multimedia{
+    100%{width:75%;}
+  }
+
+  @media screen and (max-width: 640px) {
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .links{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #28282a;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    overflow: hidden;
+    text-align: center;
+    }
+
+    .links li{
+    padding: 30px 20px;
+    }
+
+    .links li a{
+     font-size: 1rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 3s ease-in;
+    text-align: center;
+    }
+
+    .links li a:hover{
+    color: #12DBF6;
+    text-decoration: un;
+    }
+    .hire{
+    display: none;
+    }
+
+    .menu{
+    width: 40px;
+    height: 40px;
+    display:block;
+       
+    }
+
+.menu i{
+width: 100%;
+height: 100%;
+color: #ffffff;
+}
+.links{
+   transition: all 3s ease-in;
+   }
+/* Qmedia Container */
+.container{
+    width: 100%;
+    max-width: 100%;
+    background-color: #070709;
+  }
+
+  .container h2{
+    color: #12dbf6;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 30px 30px;
+    
+  }
+
+  .container h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .container h1 span{
+    color: #12dbf6;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .container h4{
+    color:lightgray;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight:400;
+    padding: 20px 20px;
+  }
+
+  .techGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 20px; 
+  }
+
+  .childgrid{
+    width: 100%;
+    background-color: #28282a;
+    padding: 30px 20px;
+  }
+
+  .pross-skill h3{
+    font-size: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #12dbf6 ;
+    padding: 10px 10px;
+
+  }
+
+  .pross-skill p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: lightgray;
+  }
+  .iconsgrid{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+  }
+
+  .iconsgrid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+  }
+
+  .progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color:#959595;
+    border-radius: 5px;
+
+  }
+
+  .progress-bar div{
+    width: 0px;
+    height: 10px;
+    /* background-color:red; */
+    border-radius: 5px;
+
+  }
+
+  .progress-bar div span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color:#fff;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .childgrid:hover{
+    box-shadow: 4px 4px 30px rgba(223, 200, 242, 0.7);
+    border: 2px solid #12dbf6;
+  }
+  .childgrid:hover .html{
+    animation: html 4s linear forwards;
+  }
+
+   .childgrid:hover .css{
+    animation: css 4s linear forwards;
+  }
+
+   .childgrid:hover .javascript{
+    animation: javascript 4s linear forwards;
+  }
+
+   .childgrid:hover .tailwind{
+    animation: tailwind 4s linear forwards;
+  }
+
+   .childgrid:hover .php{
+    animation: php 4s linear forwards;
+  }
+
+   .childgrid:hover .sql{
+    animation: sql 4s linear forwards;
+  }
+
+   .childgrid:hover .expressjs{
+    animation: expressjs 4s linear forwards;
+  }
+
+   .childgrid:hover .nodejs{
+    animation: nodejs 4s linear forwards;
+  }
+
+   .childgrid:hover .nextjs{
+    animation: nextjs 4s linear forwards;
+  }
+
+   .childgrid:hover .multimedia{
+    animation: multimedia 4s linear forwards;
+  }
+ .childgrid:hover .figma{
+    animation: figma 4s linear forwards;
+  }
+
+  .html{
+    background-color: #ab12bc;
+  }
+
+   .css{
+    background-color: #ab3401;
+  }
+
+   .javascript{
+    background-color: #1234de;
+  }
+
+  .tailwind{
+    background-color: #5df120;
+  }
+
+   .sql{
+    background-color: #906e;
+  }
+
+   .nextjs{
+    background-color: #ab45;
+  }
+
+  .php{
+    background-color: #ab3401;
+  }
+
+   .nodejs{
+    background-color: #12ecde;
+  }
+
+  .expressjs{
+    background-color: #94e75d;
+  }
+
+  .figma{
+    background-color: #03244e;
+  }
+
+  .multimedia{
+    background-color: #460505;
+  }
+
+
+
+  .html span{
+    border: 1px solid  #ab12bc;
+  }
+
+   .css span{
+     border: 1px solid #fdc513;
+  }
+
+   .javascript span{
+     border: 1px solid  #1234de;
+  }
+
+  .tailwind span{
+  border: 1px solid  #5df120;
+    
+  }
+
+   .sql span{
+     border: 1px solid   #906e;
+  }
+
+   .nextjs span{
+     border: 1px solid  #abbbed;
+  }
+
+  .php span{
+     border: 1px solid   #ab3401;
+  }
+
+   .nodejs{
+
+     border: 1px solid  #12ecde;
+  }
+
+  .expressjs span {
+     border: 1px solid  #5df120;
+  }
+
+  .figma span{
+     border: 1px solid #03244e;
+  }
+
+  .multimedia span{
+     border: 1px solid #460505;
+  }
+
+  
+  @keyframes html{
+    100%{width:90%;}
+  }
+
+   @keyframes css{
+    100%{width:90%;}
+  }
+
+   @keyframes javascript{
+    100%{width:80%;}
+  }
+
+   @keyframes tailwind{
+    100%{width:80%;}
+  }
+
+   @keyframes sql{
+    100%{width:75%;}
+  }
+
+   @keyframes nextjs{
+    100%{width:75%;}
+  }
+
+   @keyframes php{
+    100%{width:95%;}
+  }
+
+   @keyframes nodejs{
+    100%{width:80%;}
+  }
+
+    @keyframes expressjs{
+    100%{width:70%;}
+  }
+
+   @keyframes figma{
+    100%{width:90%;}
+  }
+
+   @keyframes multimedia{
+    100%{width:75%;}
+  }
+
+  }
+
+  
