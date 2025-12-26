@@ -562,7 +562,6 @@ color: #ffffff;
 
   .childgrid:hover{
     box-shadow: 4px 4px 30px rgba(223, 200, 242, 0.7);
-    border: 2px solid #12dbf6;
   }
   .childgrid:hover .html{
     animation: html 4s linear forwards;
