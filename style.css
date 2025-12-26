@@ -149,6 +149,7 @@
   text-align: center;
   margin: 30px auto;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .full h1{

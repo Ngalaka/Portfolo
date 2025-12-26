@@ -12,5 +12,5 @@ function toggle(){
 }
 
 hire.addEventListener('click', function(){
-window.location.href ="./About/about.html";
+window.location.href ="../About/about.html";
 });

@@ -13,5 +13,5 @@ function toggle(){
 
 
 hire.addEventListener('click', function(){
-window.location.href ="./Contact/contact.html";
+window.location.href ="../About/about.html";
 });
